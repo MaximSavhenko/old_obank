@@ -95,13 +95,13 @@
   color: #fff;
   line-height: 31px;
   margin-bottom: 50px;
-  text-align: center;
 }
 
 @media (max-width: 1023px) {
   .banner-text-block > span {
     font-size: 24px;
     color: #30394a;
+    text-align: center;
   }
 }
 
@@ -207,11 +207,13 @@
 }
 
 @media (max-width: 1023px) {
-  .banner-prostoskachaybank-img img {
+  .banner-prostoskachaybank-img a {
     margin-bottom: 21px;
+    display: flex;
+    justify-content: center;
   }
 
-  .banner-prostoskachaybank-img img:last-child {
+  .banner-prostoskachaybank-img a:last-child {
     margin-bottom: 0px;
   }
 }
